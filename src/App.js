@@ -1,23 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Weather from "./Weather.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Weather App</h1>
+        <h2>Let's start React!!!</h2>
+        <Weather city="Porto"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         It's working xD
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
